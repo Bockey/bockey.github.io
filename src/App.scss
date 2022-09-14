@@ -1,0 +1,48 @@
+$theme-colors: (
+    
+   
+);
+$theme-colors: (
+    "primary": #64B691,
+  "secondary":  #000,
+  "success":    #000,
+  "info":       #000,
+  "warning":    #000,
+  "danger":     #000,
+  "light": #685A5A,
+  "dark":       #000,
+);
+@import "~bootstrap/scss/bootstrap";
+
+nav{
+    .wrapper{
+        width: 100%;
+        margin: 0 3%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .nav-link{
+        color: #FFF;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+}
+.navbar-brand{
+    box-shadow: 0 3px 6px #000;
+    position: absolute;
+    left: 2%;
+    top: 5px;
+    z-index: 10;
+    background-color: #685A5A;
+    svg{
+        @media (max-width: 768px){
+            width: 54px;
+            height: 54px;
+        }
+    }
+}
+.nav-link.active{
+    color: #64B691 !important;
+}
