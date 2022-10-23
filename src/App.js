@@ -1,10 +1,10 @@
-import "./App.scss";
-import Navigation from "./components/Nav";
+import "./sass/style.scss";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
+      <Layout></Layout>
     </div>
   );
 }

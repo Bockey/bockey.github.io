@@ -1,0 +1,23 @@
+$color-primary: #64B691;
+$color-secondary: #685A5A;
+$color-secondary-light: #685a5aae;
+
+$theme-colors: (
+    "primary": #64B691,
+  "secondary":  #000,
+  "success":    #000,
+  "info":       #000,
+  "warning":    #000,
+  "danger":     #000,
+  "light": #685A5A,
+  "dark":       #000,
+);
+@import "~bootstrap/scss/bootstrap";
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+
+@import "partials/nav";
+@import "partials/HomePage/landingPage";

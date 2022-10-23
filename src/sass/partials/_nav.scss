@@ -1,18 +1,3 @@
-$theme-colors: (
-    
-   
-);
-$theme-colors: (
-    "primary": #64B691,
-  "secondary":  #000,
-  "success":    #000,
-  "info":       #000,
-  "warning":    #000,
-  "danger":     #000,
-  "light": #685A5A,
-  "dark":       #000,
-);
-@import "~bootstrap/scss/bootstrap";
 
 nav{
     .wrapper{
@@ -24,6 +9,9 @@ nav{
     }
     .nav-link{
         color: #FFF;
+        text-shadow: 0 3px 6px #000;
+        font-size: 20px;
+        
     }
     .navbar-nav{
         align-items: center;
