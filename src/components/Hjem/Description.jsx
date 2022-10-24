@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 function Description(props) {
     return (
@@ -22,7 +22,7 @@ function Description(props) {
                 <p>Vi har mange års erfaring og kompetanse innen prosjektledelse, 
                     montasje og spesialtilpasninger i både store og små prosjekter.  
                 </p>
-                <Link to="/om-oss">Om oss</Link>
+                <Nav.Link href="/om-oss">Om oss</Nav.Link>
             </div>
         </div>
     );
