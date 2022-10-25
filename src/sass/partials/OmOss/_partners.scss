@@ -1,15 +1,17 @@
 .partners {
   h2 {
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
   }
   .list {
     display: flex;
     align-items: center;
     align-items: center;
     justify-content: space-evenly;
+    padding-bottom: 3rem;
     span {
       display: inline-block;
+      font-weight: bold;
     }
   }
 }

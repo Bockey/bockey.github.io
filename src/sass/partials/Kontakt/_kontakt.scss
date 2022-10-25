@@ -1,7 +1,8 @@
 .contact {
   color: $color-secondary;
   padding: 5rem 5% 3rem;
+  @import "./info";
+  @import "./form";
+  @import "./map";
 }
-@import "./info";
-@import "./form";
-@import "./map";
+

@@ -46,6 +46,10 @@
       }
       span {
         display: block;
+        @media (max-width: 389px) {
+          font-size: 16px;
+          transform: translateX(1rem);
+        }
       }
       .johannes {
         background-image: url("https://www.nordstudio.ch/wp/wp-content/uploads/2018/02/mitarbeiter-business-fotos_09.jpg");

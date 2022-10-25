@@ -11,7 +11,9 @@ function Layout(props) {
     <Router>
       <Navigation />
       <Routes>
-        <Route path="/" element={<Hjem />} />
+      {/* <Route exact="exact" path="/" element={<Navigate to="/hjem" />} /> */}
+
+        <Route exact="exact" path="/" element={<Hjem />}/>
         <Route path="/hjem" element={<Hjem />} />
         <Route path="/om-oss" element={<OmOss />} />
         <Route path="/kontakt" element={<Kontakt />} />

@@ -50,6 +50,8 @@
       transform: translateY(-100%);
       padding: 2rem 0;
       text-transform: none;
+      text-shadow: unset;
+      font-weight: bold;
     }
     @media (max-width: 1080px) {
       order: 1;

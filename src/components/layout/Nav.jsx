@@ -5,7 +5,12 @@ import Navbar from "react-bootstrap/Navbar";
 import { ReactComponent as ReactLogo } from "../../assets/logo.svg";
 
 function Navigation(props) {
-  const activeLink = window.location.pathname;
+  let activeLink;
+  if(window.location.pathname !== "/"){
+    activeLink = window.location.pathname;
+  } else{
+    activeLink = "/hjem"
+  }
   return (
     <>
       <Navbar.Brand href="/hjem" exact="exact">
