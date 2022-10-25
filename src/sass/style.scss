@@ -1,25 +1,26 @@
-$color-primary: #64B691;
-$color-secondary: #685A5A;
+$color-primary: #64b691;
+$color-secondary: #685a5a;
 $color-secondary-light: #685a5aae;
 
 $theme-colors: (
-    "primary": #64B691,
-  "secondary":  #000,
-  "success":    #000,
-  "info":       #000,
-  "warning":    #000,
-  "danger":     #000,
-  "light": #685A5A,
-  "dark":       #000,
+  "primary": #64b691,
+  "secondary": #000,
+  "success": #000,
+  "info": #000,
+  "warning": #000,
+  "danger": #000,
+  "light": #685a5a,
+  "dark": #000,
 );
 @import "~bootstrap/scss/bootstrap";
 
-body{
-    font-family: 'Roboto', sans-serif;
-    color: #FFF;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
 @import "partials/nav";
 @import "partials/HomePage/landingPage";
 @import "partials/HomePage/descriptionSection";
 @import "partials/HomePage/services";
+@import "partials/HomePage/projects";
