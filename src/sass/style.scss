@@ -19,8 +19,11 @@ body {
   color: #fff;
 }
 
+@import "partials/typography";
 @import "partials/nav";
 @import "partials/HomePage/landingPage";
 @import "partials/HomePage/descriptionSection";
 @import "partials/HomePage/services";
 @import "partials/HomePage/projects";
+@import "partials/OmOss/section1";
+@import "partials/Kontakt/kontakt";

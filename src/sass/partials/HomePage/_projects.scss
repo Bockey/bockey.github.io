@@ -37,7 +37,7 @@
     }
     &-control-prev {
       position: absolute;
-      right: 20%;
+      right: calc(13% + 70px);
       left: unset;
       opacity: 1;
       width: unset;
@@ -54,7 +54,7 @@
     }
     &-control-next {
       position: absolute;
-      right: 10%;
+      right: 13%;
       left: unset;
       opacity: 1;
       padding: 0;

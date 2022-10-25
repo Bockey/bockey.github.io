@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 95vh;
+  @media (max-width: 1080px) {
+    grid-template-columns: 1fr;
+  }
+  .form-container {
+    margin-top: 3rem;
+    padding: 5rem 2rem 3rem;
+    box-shadow: 1px 3px 6px $color-secondary;
+    max-height: 650px;
+
+    @media (max-width: 500px) {
+      padding: 5rem 0 3rem;
+      box-shadow: none;
+    }
+
+    button {
+      color: #fff;
+      text-decoration: none;
+      background-color: $color-primary;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 1rem 3rem;
+      border-radius: 17px;
+      margin-top: 3rem;
+      display: block;
+      margin: 0 auto;
+      &:hover {
+        opacity: 0.8;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}
