@@ -5,6 +5,7 @@ import Hjem from "../Hjem/Hjem";
 import OmOss from "../OmOss/OmOss";
 import Kontakt from "../Kontakt/Kontakt";
 import Tjenester from "../Tjenester/Tjenester";
+import Footer from "./Footer";
 
 function Layout(props) {
   return (
@@ -19,6 +20,7 @@ function Layout(props) {
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/tjenester" element={<Tjenester />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

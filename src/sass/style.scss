@@ -18,7 +18,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
-
+.root, .App{
+  min-height: 100vh;
+  position: relative;
+}
 @import "partials/typography";
 @import "partials/nav";
 @import "partials/HomePage/landingPage";
@@ -28,3 +31,4 @@ body {
 @import "partials/OmOss/section1";
 @import "partials/Kontakt/kontakt";
 @import "partials/Tjenester/tjenester";
+@import "partials/footer";

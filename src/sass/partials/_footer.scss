@@ -1,0 +1,92 @@
+.footer{
+    background-color: $color-secondary-light;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    color: $color-secondary;
+    transform: translateY(100%);
+    .footer-container{
+        width: 70%;
+        max-width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+        .footer-logo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @media (max-width: 1080px) {
+                margin-bottom: 3rem;
+                width: 100%;
+            }
+            &-img{
+                background-image: url("../../assets/logo.svg");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                width: 120px;
+                height: 120px;
+            }
+            .signature{
+                font-size: 14px;
+            }
+        }
+        .footer-links{
+            @media (max-width: 1080px) {
+                margin-top: 2rem;
+            }
+        }
+        .footer-tjenester{
+            @media (max-width: 1080px) {
+                margin-top: 2rem;
+            }
+        }
+        .footer-kontakt{
+            @media (max-width: 1080px) {
+                margin-top: 2rem;
+            }
+        }
+    }
+    h3{
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: 18px;
+        text-shadow: none;
+    }
+    span, a{
+        padding-bottom: 0.3rem;
+        display: block;
+    }
+    a{
+        position: relative;
+        &:hover{
+            opacity: 0.7;
+            color: #000;
+        }
+    }
+    a::before{
+        content: "";
+        width: 0.7rem;
+        height: 0.5rem;
+        position: absolute;
+        left: -1.2rem;
+        top: 0.5rem;
+        background-color: $color-secondary;
+        border-radius: 0 100% 100% 0;
+    }
+    // .footer-links{
+    //     padding: 2rem 3rem;
+    // }
+    // .footer-tjenester{
+    //     padding: 2rem 3rem;
+    // }
+    // .footer-kontakt{
+    //     padding: 2rem 3rem;
+    // }
+}

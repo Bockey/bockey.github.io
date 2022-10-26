@@ -5,8 +5,13 @@ function Info() {
     <div className="info">
       <h1>Kontakt</h1>
       <span>Tel: 93643944</span>
-      <span>E-mail: support@assemble-it.no</span>
-      <span>Address: Assemble-it, Micheletveien 54, 1053 Oslo</span>
+      <span>E-mail: post@assemble-it.no</span>
+      <span>
+        Lager/kontor: Micheletveien 54, 1053 Oslo
+      </span>
+      <span>  
+        Postadresse: Lommedalsveien 286, 1350 Lommedalen
+      </span>
     </div>
   );
 }
