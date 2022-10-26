@@ -5,6 +5,7 @@ function FormEl() {
   return (
     <div className="form-container">
       <Form>
+        <h3>Send us a message</h3>
         <Form.Group className="mb-3" controlId="fullname">
           <Form.Label>Full name</Form.Label>
           <Form.Control type="text" placeholder="" />

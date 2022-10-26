@@ -2,19 +2,13 @@ import Info from "./Info";
 import FormEl from "./Form";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
-// import { MapContainer } from "https://cdn.esm.sh/react-leaflet/MapContainer";
-// import { TileLayer } from "https://cdn.esm.sh/react-leaflet/TileLayer";
-// import { useMap } from "https://cdn.esm.sh/react-leaflet/hooks";
-
 function Kontakt(props) {
   return (
     <div className="contact">
       <div className="container">
         <Info />
         <FormEl />
-      </div>
-      <div className="location">
-        <h2>Location</h2>
+        <div className="location">
         <MapContainer
         center={[59.9377644, 10.8795503]}
         zoom={12}
@@ -33,6 +27,8 @@ function Kontakt(props) {
       </MapContainer>
       </div>
     </div>
+      </div>
+      
   );
 }
 

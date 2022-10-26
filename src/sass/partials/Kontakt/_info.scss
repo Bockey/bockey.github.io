@@ -1,6 +1,10 @@
 .info {
   display: flex;
   flex-direction: column;
+  grid-row: 1/2;
+  @media (max-width: 1080px) {
+    grid-row: unset;
+  }
   h1 {
     padding: 3rem 0;
   }
