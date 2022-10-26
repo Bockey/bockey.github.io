@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/assemble/static/css/main.012a84aa.css",
-    "main.js": "/assemble/static/js/main.da474d68.js",
-    "static/js/787.20affddb.chunk.js": "/assemble/static/js/787.20affddb.chunk.js",
-    "static/media/logo.svg": "/assemble/static/media/logo.a6d1b0910455a0b6bce24cf77f046b7f.svg",
-    "index.html": "/assemble/index.html",
-    "main.012a84aa.css.map": "/assemble/static/css/main.012a84aa.css.map",
-    "main.da474d68.js.map": "/assemble/static/js/main.da474d68.js.map",
-    "787.20affddb.chunk.js.map": "/assemble/static/js/787.20affddb.chunk.js.map"
+    "main.css": "/static/css/main.e4dc7133.css",
+    "main.js": "/static/js/main.1a8494dc.js",
+    "static/js/787.20affddb.chunk.js": "/static/js/787.20affddb.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.a6d1b0910455a0b6bce24cf77f046b7f.svg",
+    "index.html": "/index.html",
+    "main.e4dc7133.css.map": "/static/css/main.e4dc7133.css.map",
+    "main.1a8494dc.js.map": "/static/js/main.1a8494dc.js.map",
+    "787.20affddb.chunk.js.map": "/static/js/787.20affddb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.012a84aa.css",
-    "static/js/main.da474d68.js"
+    "static/css/main.e4dc7133.css",
+    "static/js/main.1a8494dc.js"
   ]
 }
